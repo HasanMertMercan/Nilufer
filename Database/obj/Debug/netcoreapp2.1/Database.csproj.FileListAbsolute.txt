@@ -1,0 +1,9 @@
+C:\Users\merca\source\repos\Nilufer\Database\bin\Debug\netcoreapp2.1\Database.deps.json
+C:\Users\merca\source\repos\Nilufer\Database\bin\Debug\netcoreapp2.1\Database.dll
+C:\Users\merca\source\repos\Nilufer\Database\bin\Debug\netcoreapp2.1\Database.pdb
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.csprojAssemblyReference.cache
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.csproj.CoreCompileInputs.cache
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfoInputs.cache
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfo.cs
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.dll
+C:\Users\merca\source\repos\Nilufer\Database\obj\Debug\netcoreapp2.1\Database.pdb
