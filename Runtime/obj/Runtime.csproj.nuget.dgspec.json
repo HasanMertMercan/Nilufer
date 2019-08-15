@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Nilufer\\Runtime\\Runtime.csproj": {}
+    "C:\\GitHub\\Nilufer\\Runtime\\Runtime.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Nilufer\\Runtime\\Runtime.csproj": {
+    "C:\\GitHub\\Nilufer\\Runtime\\Runtime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Nilufer\\Runtime\\Runtime.csproj",
+        "projectUniqueName": "C:\\GitHub\\Nilufer\\Runtime\\Runtime.csproj",
         "projectName": "Runtime",
-        "projectPath": "C:\\Projects\\Nilufer\\Runtime\\Runtime.csproj",
+        "projectPath": "C:\\GitHub\\Nilufer\\Runtime\\Runtime.csproj",
         "packagesPath": "C:\\Users\\merca\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Nilufer\\Runtime\\obj\\",
+        "outputPath": "C:\\GitHub\\Nilufer\\Runtime\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

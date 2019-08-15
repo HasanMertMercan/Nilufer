@@ -5518,11 +5518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Nilufer\\Database.EFCoreMigration\\Database.EFCoreMigration.csproj",
+      "projectUniqueName": "C:\\GitHub\\Nilufer\\Database.EFCoreMigration\\Database.EFCoreMigration.csproj",
       "projectName": "Database.EFCoreMigration",
-      "projectPath": "C:\\Projects\\Nilufer\\Database.EFCoreMigration\\Database.EFCoreMigration.csproj",
+      "projectPath": "C:\\GitHub\\Nilufer\\Database.EFCoreMigration\\Database.EFCoreMigration.csproj",
       "packagesPath": "C:\\Users\\merca\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Nilufer\\Database.EFCoreMigration\\obj\\",
+      "outputPath": "C:\\GitHub\\Nilufer\\Database.EFCoreMigration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5543,8 +5543,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\Nilufer\\Database\\Database.csproj": {
-              "projectPath": "C:\\Projects\\Nilufer\\Database\\Database.csproj"
+            "C:\\GitHub\\Nilufer\\Database\\Database.csproj": {
+              "projectPath": "C:\\GitHub\\Nilufer\\Database\\Database.csproj"
             }
           }
         }

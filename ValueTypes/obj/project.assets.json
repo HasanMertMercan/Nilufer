@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Nilufer\\ValueTypes\\ValueTypes.csproj",
+      "projectUniqueName": "C:\\GitHub\\Nilufer\\ValueTypes\\ValueTypes.csproj",
       "projectName": "ValueTypes",
-      "projectPath": "C:\\Projects\\Nilufer\\ValueTypes\\ValueTypes.csproj",
+      "projectPath": "C:\\GitHub\\Nilufer\\ValueTypes\\ValueTypes.csproj",
       "packagesPath": "C:\\Users\\merca\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Nilufer\\ValueTypes\\obj\\",
+      "outputPath": "C:\\GitHub\\Nilufer\\ValueTypes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
