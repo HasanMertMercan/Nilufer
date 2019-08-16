@@ -1,0 +1,14 @@
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\Database.deps.json
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.AssemblyInfo.cs
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.csproj.CopyComplete
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\Database\obj\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\Database.runtimeconfig.json
+C:\GitHub\Nilufer\Database\bin\Debug\netcoreapp2.2\Database.runtimeconfig.dev.json

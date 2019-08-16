@@ -1,0 +1,9 @@
+C:\GitHub\Nilufer\ValueTypes\bin\Debug\netcoreapp2.1\ValueTypes.deps.json
+C:\GitHub\Nilufer\ValueTypes\bin\Debug\netcoreapp2.1\ValueTypes.dll
+C:\GitHub\Nilufer\ValueTypes\bin\Debug\netcoreapp2.1\ValueTypes.pdb
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.AssemblyInfo.cs
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.dll
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.1\ValueTypes.pdb

@@ -6,3 +6,11 @@ C:\Users\merca\source\repos\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.Asse
 C:\Users\merca\source\repos\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.AssemblyInfo.cs
 C:\Users\merca\source\repos\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.dll
 C:\Users\merca\source\repos\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.pdb
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.1\Runtime.deps.json
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.1\Runtime.dll
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.1\Runtime.pdb
+C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.AssemblyInfo.cs
+C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.dll
+C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.1\Runtime.pdb
