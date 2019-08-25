@@ -1,0 +1,14 @@
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\CustomerService.deps.json
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\CustomerService.dll
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.AssemblyInfo.cs
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.csproj.CopyComplete
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\CustomerService.pdb
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.dll
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\CustomerService.pdb

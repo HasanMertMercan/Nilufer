@@ -2,17 +2,26 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using ValueTypes.Entity;
 
 namespace Database
 {
     public class StoreDbContext : DbContext
     {
+        public IConfiguration Configuration { get; }
+        public DbSet<Customer> CustomerList { get; set; }
+        public DbSet<CustomerOrder> CustomerOrderList { get; set; }
+        public DbSet<Dealer> DealerList { get; set; }
+        public DbSet<DealerOrder> DealerOrderList { get; set; }
+        public DbSet<Expenditure> ExpenditureList { get; set; }
+        public DbSet<OutgoingOrder> OutgoingOrderList { get; set; }
         public DbSet<Product> ProductList { get; set; }
+        public DbSet<Supplier> SupplierList { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=nilufer;user=root;password=root12345?");
+            optionsBuilder.UseMySQL(Configuration.GetConnectionString("NiluferDB"));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

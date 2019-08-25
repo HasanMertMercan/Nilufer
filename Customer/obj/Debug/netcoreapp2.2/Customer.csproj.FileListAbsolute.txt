@@ -1,0 +1,9 @@
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\Customer.deps.json
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\Customer.dll
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.AssemblyInfo.cs
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\Customer\bin\Debug\netcoreapp2.2\Customer.pdb
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.dll
+C:\GitHub\Nilufer\Customer\obj\Debug\netcoreapp2.2\Customer.pdb
