@@ -1,0 +1,6 @@
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\ProductService.deps.json
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\ProductService.dll
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.AssemblyInfo.cs
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.csprojAssemblyReference.cache

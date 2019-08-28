@@ -17,11 +17,11 @@ namespace CustomerService
             //Inject StoreDbContext
             _dbContext = dbContext;
         }
-        public Task Delete(List<Customer> list)
+
+        public async Task Delete(List<Customer> list)
         {
             _dbContext.CustomerList.RemoveRange(list);
-            Save();
-            return Task.CompletedTask;
+            await Save();
         }
 
         public Task<Customer> GetCustomerById(int id)
@@ -35,21 +35,29 @@ namespace CustomerService
             return _dbContext.CustomerList.ToListAsync();
         }
 
-        public Task Insert(List<Customer> list)
+        public Task<Customer> GetCustomerByPhoneNumber(string phoneNumber)
         {
-            _dbContext.CustomerList.AddRange(list);
-            Save();
-            return Task.CompletedTask;
+            return _dbContext.CustomerList.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
         }
 
-        public Task Update(List<Customer> list)
+        public Task<Customer> GetCustomerByEmail(string email)
+        {
+            return _dbContext.CustomerList.Where(q => q.EmailAddress == email).SingleAsync();
+        }
+
+        public async Task Insert(List<Customer> list)
+        {
+            _dbContext.CustomerList.AddRange(list);
+            await Save();
+        }
+
+        public async Task Update(List<Customer> list)
         {
             foreach (var customer in list)
             {
                 _dbContext.Entry(customer).State = EntityState.Modified;
             }
-            Save();
-            return Task.CompletedTask;
+            await Save();
         }
         private async Task Save()
         {

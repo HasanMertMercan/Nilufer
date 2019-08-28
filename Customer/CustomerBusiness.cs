@@ -45,6 +45,32 @@ namespace CustomerService
             }
         }
 
+        public Task<Customer> GetCustomerByEmail(string email)
+        {
+            try
+            {
+                return _repository.GetCustomerByEmail(email);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                throw ex;
+            }
+        }
+
+        public Task<Customer> GetCustomerByPhoneNumber(string phoneNumber)
+        {
+            try
+            {
+                return _repository.GetCustomerByPhoneNumber(phoneNumber);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                throw ex;
+            }
+        }
+
         public Task<List<Customer>> GetCustomers()
         {
             try
