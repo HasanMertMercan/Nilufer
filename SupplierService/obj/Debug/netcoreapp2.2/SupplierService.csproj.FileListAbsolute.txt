@@ -1,0 +1,14 @@
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\SupplierService.deps.json
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\SupplierService.dll
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.AssemblyInfo.cs
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.csproj.CopyComplete
+C:\GitHub\Nilufer\SupplierService\bin\Debug\netcoreapp2.2\SupplierService.pdb
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.dll
+C:\GitHub\Nilufer\SupplierService\obj\Debug\netcoreapp2.2\SupplierService.pdb
