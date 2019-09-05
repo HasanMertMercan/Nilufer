@@ -4,3 +4,11 @@ C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderServ
 C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.AssemblyInfoInputs.cache
 C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.AssemblyInfo.cs
 C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\CustomerOrderService.pdb
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.csproj.CopyComplete
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.dll
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.pdb

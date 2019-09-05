@@ -9,3 +9,6 @@ C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.
 C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.AssemblyInfoInputs.cache
 C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.AssemblyInfo.cs
 C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.csproj.CopyComplete
+C:\GitHub\Nilufer\DealerOrderService\bin\Debug\netcoreapp2.2\DealerOrderService.pdb
+C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.dll
+C:\GitHub\Nilufer\DealerOrderService\obj\Debug\netcoreapp2.2\DealerOrderService.pdb

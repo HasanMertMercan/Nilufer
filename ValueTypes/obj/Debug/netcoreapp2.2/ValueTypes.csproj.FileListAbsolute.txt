@@ -6,3 +6,4 @@ C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.2\ValueTypes.AssemblyInfoInpu
 C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.2\ValueTypes.AssemblyInfo.cs
 C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.2\ValueTypes.dll
 C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\ValueTypes\obj\Debug\netcoreapp2.2\ValueTypes.csprojAssemblyReference.cache

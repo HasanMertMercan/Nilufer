@@ -10,6 +10,7 @@
         "dependencies": {
           "Database": "1.0.0",
           "Microsoft.AspNetCore.Hosting": "2.2.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "ValueTypes": "1.0.0"
         },
