@@ -14,3 +14,7 @@ C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\ValueTypes.dll
 C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\Database.pdb
 C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\ValueTypes.pdb
 C:\GitHub\Nilufer\Runtime\obj\Debug\netcoreapp2.2\Runtime.csproj.CopyComplete
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\CustomerService.dll
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\ProductService.dll
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\CustomerService.pdb
+C:\GitHub\Nilufer\Runtime\bin\Debug\netcoreapp2.2\ProductService.pdb

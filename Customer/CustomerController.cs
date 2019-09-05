@@ -20,7 +20,8 @@ namespace CustomerService
         public IActionResult GetCustomers()
         {
             var customers = _business.GetCustomers();
-            return new OkObjectResult(customers);
+            return new OkObjectResult
+                (customers);
         }
 
     }

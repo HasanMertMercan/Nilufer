@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypes", "ValueTypes\Va
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService", "Customer\CustomerService.csproj", "{19EB587A-04D0-4474-B204-17804AB7235C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{5B864AAB-3E02-4C42-AC1C-32C3CD58EEA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{5B864AAB-3E02-4C42-AC1C-32C3CD58EEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerOrderService", "CustomerOrderService\CustomerOrderService.csproj", "{1482D9F1-02FD-48EE-BEE4-7DDAAC273ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5B864AAB-3E02-4C42-AC1C-32C3CD58EEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B864AAB-3E02-4C42-AC1C-32C3CD58EEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B864AAB-3E02-4C42-AC1C-32C3CD58EEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1482D9F1-02FD-48EE-BEE4-7DDAAC273ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1482D9F1-02FD-48EE-BEE4-7DDAAC273ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1482D9F1-02FD-48EE-BEE4-7DDAAC273ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1482D9F1-02FD-48EE-BEE4-7DDAAC273ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

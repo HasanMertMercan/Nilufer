@@ -1,0 +1,6 @@
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\CustomerOrderService.deps.json
+C:\GitHub\Nilufer\CustomerOrderService\bin\Debug\netcoreapp2.2\CustomerOrderService.dll
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.AssemblyInfo.cs
+C:\GitHub\Nilufer\CustomerOrderService\obj\Debug\netcoreapp2.2\CustomerOrderService.csprojAssemblyReference.cache

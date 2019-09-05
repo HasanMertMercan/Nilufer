@@ -4,3 +4,11 @@ C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.csproj.C
 C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.AssemblyInfoInputs.cache
 C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.AssemblyInfo.cs
 C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\ProductService.pdb
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\ProductService\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.csproj.CopyComplete
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.dll
+C:\GitHub\Nilufer\ProductService\obj\Debug\netcoreapp2.2\ProductService.pdb
