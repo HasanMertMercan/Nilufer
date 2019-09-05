@@ -1,0 +1,11 @@
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\DealerService.deps.json
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\DealerService.dll
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\DealerService\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\DealerService\obj\Debug\netcoreapp2.2\DealerService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\DealerService\obj\Debug\netcoreapp2.2\DealerService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\DealerService\obj\Debug\netcoreapp2.2\DealerService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\DealerService\obj\Debug\netcoreapp2.2\DealerService.AssemblyInfo.cs
+C:\GitHub\Nilufer\DealerService\obj\Debug\netcoreapp2.2\DealerService.csproj.CopyComplete
