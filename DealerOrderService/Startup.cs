@@ -1,9 +1,9 @@
-﻿using DealerService;
+﻿using DealerOrderService;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
 [assembly: HostingStartup(typeof(Startup))]
-namespace DealerService
+namespace DealerOrderService
 {
     public class Startup : IHostingStartup
     {
@@ -11,8 +11,8 @@ namespace DealerService
         {
             builder.ConfigureServices(services =>
             {
-                services.AddSingleton<IDealerBusiness, DealerBusiness>();
-                services.AddSingleton<IDealerRepository, DealerRepository>();
+                services.AddSingleton<IDealerOrderBusiness, DealerOrderBusiness>();
+                services.AddSingleton<IDealerOrderRepository, DealerOrderRepository>();
             });
         }
     }
