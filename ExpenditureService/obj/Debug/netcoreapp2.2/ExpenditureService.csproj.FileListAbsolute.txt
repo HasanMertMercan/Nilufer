@@ -1,0 +1,11 @@
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\ExpenditureService.deps.json
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\ExpenditureService.dll
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\Database.dll
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\ValueTypes.dll
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\Database.pdb
+C:\GitHub\Nilufer\ExpenditureService\bin\Debug\netcoreapp2.2\ValueTypes.pdb
+C:\GitHub\Nilufer\ExpenditureService\obj\Debug\netcoreapp2.2\ExpenditureService.csprojAssemblyReference.cache
+C:\GitHub\Nilufer\ExpenditureService\obj\Debug\netcoreapp2.2\ExpenditureService.csproj.CoreCompileInputs.cache
+C:\GitHub\Nilufer\ExpenditureService\obj\Debug\netcoreapp2.2\ExpenditureService.AssemblyInfoInputs.cache
+C:\GitHub\Nilufer\ExpenditureService\obj\Debug\netcoreapp2.2\ExpenditureService.AssemblyInfo.cs
+C:\GitHub\Nilufer\ExpenditureService\obj\Debug\netcoreapp2.2\ExpenditureService.csproj.CopyComplete
