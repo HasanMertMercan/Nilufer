@@ -19,33 +19,33 @@ namespace ProductService
         }
         public async Task Delete(List<Product> list)
         {
-            _dbContext.ProductList.RemoveRange(list);
+            _dbContext.Product.RemoveRange(list);
             await Save();
         }
 
         public Task<Product> GetProductById(int id)
         {
-            return _dbContext.ProductList.Where(q => q.Id == id).SingleAsync();
+            return _dbContext.Product.Where(q => q.Id == id).SingleAsync();
         }
 
         public Task<Product> GetProductByName(string name)
         {
-            return _dbContext.ProductList.Where(q => q.Name == name).SingleAsync();
+            return _dbContext.Product.Where(q => q.Name == name).SingleAsync();
         }
 
         public Task<Product> GetProductByProductCode(string code)
         {
-            return _dbContext.ProductList.Where(q => q.ProductCode == code).SingleAsync();
+            return _dbContext.Product.Where(q => q.ProductCode == code).SingleAsync();
         }
 
         public Task<List<Product>> GetProducts()
         {
-            return _dbContext.ProductList.ToListAsync();
+            return _dbContext.Product.ToListAsync();
         }
 
         public async Task Insert(List<Product> list)
         {
-            _dbContext.ProductList.AddRange(list);
+            _dbContext.Product.AddRange(list);
             await Save();
         }
 

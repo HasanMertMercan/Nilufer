@@ -18,38 +18,38 @@ namespace ExpenditureService
         }
         public async Task Delete(Expenditure expenditure)
         {
-            _dbContext.ExpenditureList.Remove(expenditure);
+            _dbContext.Expenditure.Remove(expenditure);
             await Save();
         }
 
         public Task<List<Expenditure>> GetAllExpendetures()
         {
-            return _dbContext.ExpenditureList.ToListAsync();
+            return _dbContext.Expenditure.ToListAsync();
         }
 
         public Task<Expenditure> GetExpenditureById(int id)
         {
-            return _dbContext.ExpenditureList.Where(q => q.Id == id).SingleAsync();
+            return _dbContext.Expenditure.Where(q => q.Id == id).SingleAsync();
         }
 
         public Task<Expenditure> GetExpenditureByOutgoingOrderId(int outgoingOrderId)
         {
-            return _dbContext.ExpenditureList.Where(q => q.OutgoingOrderId == outgoingOrderId).SingleAsync();
+            return _dbContext.Expenditure.Where(q => q.OutgoingOrderId == outgoingOrderId).SingleAsync();
         }
 
         public Task<List<Expenditure>> GetExpendituresByCreatedDate(DateTime date)
         {
-            return _dbContext.ExpenditureList.Where(q => q.CreatedDate == date).ToListAsync();
+            return _dbContext.Expenditure.Where(q => q.CreatedDate == date).ToListAsync();
         }
 
         public Task<List<Expenditure>> GetExpendituresByTotalAmount(decimal totalAmount)
         {
-            return _dbContext.ExpenditureList.Where(q => q.TotalAmount == totalAmount).ToListAsync();
+            return _dbContext.Expenditure.Where(q => q.TotalAmount == totalAmount).ToListAsync();
         }
 
         public async Task Insert(Expenditure expenditure)
         {
-            _dbContext.ExpenditureList.Add(expenditure);
+            _dbContext.Expenditure.Add(expenditure);
             await Save();
         }
 

@@ -18,43 +18,43 @@ namespace SupplierService
         }
         public async Task Delete(Supplier supplier)
         {
-            _dbContext.SupplierList.Remove(supplier);
+            _dbContext.Supplier.Remove(supplier);
             await Save();
         }
 
         public Task<List<Supplier>> GetAllSuppliers()
         {
-            return _dbContext.SupplierList.ToListAsync();
+            return _dbContext.Supplier.ToListAsync();
         }
 
         public Task<Supplier> GetSupplierByEmail(string email)
         {
-            return _dbContext.SupplierList.Where(q => q.EmailAddress == email).SingleAsync();
+            return _dbContext.Supplier.Where(q => q.EmailAddress == email).SingleAsync();
         }
 
         public Task<Supplier> GetSupplierById(int id)
         {
-            return _dbContext.SupplierList.Where(q => q.Id == id).SingleAsync();
+            return _dbContext.Supplier.Where(q => q.Id == id).SingleAsync();
         }
 
         public Task<Supplier> GetSupplierByPhoneNumber(string phoneNumber)
         {
-            return _dbContext.SupplierList.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
+            return _dbContext.Supplier.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
         }
 
         public Task<Supplier> GetSupplierByStoreName(string storeName)
         {
-            return _dbContext.SupplierList.Where(q => q.StoreName == storeName).SingleAsync();
+            return _dbContext.Supplier.Where(q => q.StoreName == storeName).SingleAsync();
         }
 
         public Task<List<Supplier>> GetSuppliersByTotalBalance(decimal totalBalance)
         {
-            return _dbContext.SupplierList.Where(q => q.TotalBalance == totalBalance).ToListAsync();
+            return _dbContext.Supplier.Where(q => q.TotalBalance == totalBalance).ToListAsync();
         }
 
         public async Task Insert(Supplier supplier)
         {
-            _dbContext.SupplierList.Add(supplier);
+            _dbContext.Supplier.Add(supplier);
             await Save();
         }
 

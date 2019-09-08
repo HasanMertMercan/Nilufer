@@ -9,15 +9,19 @@ namespace Database
 {
     public class StoreDbContext : DbContext
     {
-        public IConfiguration Configuration { get; }
-        public DbSet<Customer> CustomerList { get; set; }
-        public DbSet<CustomerOrder> CustomerOrderList { get; set; }
-        public DbSet<Dealer> DealerList { get; set; }
-        public DbSet<DealerOrder> DealerOrderList { get; set; }
-        public DbSet<Expenditure> ExpenditureList { get; set; }
-        public DbSet<OutgoingOrder> OutgoingOrderList { get; set; }
-        public DbSet<Product> ProductList { get; set; }
-        public DbSet<Supplier> SupplierList { get; set; }
+        public IConfiguration Configuration;
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet<CustomerOrder> CustomerOrder { get; set; }
+        public DbSet<Dealer> Dealer { get; set; }
+        public DbSet<DealerOrder> DealerOrder { get; set; }
+        public DbSet<Expenditure> Expenditure { get; set; }
+        public DbSet<OutgoingOrder> OutgoingOrder { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Supplier> Supplier { get; set; }
+
+        public StoreDbContext(DbContextOptions<StoreDbContext> options, IConfiguration configuration)
+        : base(options)
+            { Configuration = configuration; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

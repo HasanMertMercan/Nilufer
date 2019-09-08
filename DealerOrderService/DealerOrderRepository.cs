@@ -19,53 +19,53 @@ namespace DealerOrderService
         }
         public async Task Delete(DealerOrder dealerOrder)
         {
-            _dbContext.DealerOrderList.Remove(dealerOrder);
+            _dbContext.DealerOrder.Remove(dealerOrder);
             await Save();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByProductId(int ProductId)
         {
-            return _dbContext.DealerOrderList.Where(q => q.ProductId == ProductId).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.ProductId == ProductId).ToListAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByCreatedDate(DateTime date)
         {
-            return _dbContext.DealerOrderList.Where(q => q.CreatedDate == date).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.CreatedDate == date).ToListAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByDeliveryDate(DateTime date)
         {
-            return _dbContext.DealerOrderList.Where(q => q.DeliveryDate == date).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.DeliveryDate == date).ToListAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByOrderAmount(int OrderAmount)
         {
-            return _dbContext.DealerOrderList.Where(q => q.OrderAmount == OrderAmount).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.OrderAmount == OrderAmount).ToListAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByStatus(Status status)
         {
-            return _dbContext.DealerOrderList.Where(q => q.OrderStatus == status).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.OrderStatus == status).ToListAsync();
         }
 
         public Task<DealerOrder> GetDealerOrderById(int orderId)
         {
-            return _dbContext.DealerOrderList.Where(q => q.OrderId == orderId).SingleAsync();
+            return _dbContext.DealerOrder.Where(q => q.OrderId == orderId).SingleAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrders()
         {
-            return _dbContext.DealerOrderList.ToListAsync();
+            return _dbContext.DealerOrder.ToListAsync();
         }
 
         public Task<List<DealerOrder>> GetDealerOrdersByDealerId(int dealerId)
         {
-            return _dbContext.DealerOrderList.Where(q => q.DealerId == dealerId).ToListAsync();
+            return _dbContext.DealerOrder.Where(q => q.DealerId == dealerId).ToListAsync();
         }
 
         public async Task Insert(DealerOrder dealerOrder)
         {
-            _dbContext.DealerOrderList.Add(dealerOrder);
+            _dbContext.DealerOrder.Add(dealerOrder);
             await Save();
         }
 

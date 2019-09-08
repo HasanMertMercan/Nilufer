@@ -19,43 +19,43 @@ namespace DealerService
         }
         public async Task Delete(Dealer dealer)
         {
-            _dbContext.DealerList.Remove(dealer);
+            _dbContext.Dealer.Remove(dealer);
             await Save();
         }
 
         public Task<Dealer> GetDealerByEmailAddress(string email)
         {
-            return _dbContext.DealerList.Where(q => q.EmailAddress == email).SingleAsync();
+            return _dbContext.Dealer.Where(q => q.EmailAddress == email).SingleAsync();
         }
 
         public Task<Dealer> GetDealerById(int id)
         {
-            return _dbContext.DealerList.Where(q => q.Id == id).SingleAsync();
+            return _dbContext.Dealer.Where(q => q.Id == id).SingleAsync();
         }
 
         public Task<Dealer> GetDealerByPhoneNumber(string phoneNumber)
         {
-            return _dbContext.DealerList.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
+            return _dbContext.Dealer.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
         }
 
         public Task<Dealer> GetDealerByStoreName(string storeName)
         {
-            return _dbContext.DealerList.Where(q => q.StoreName == storeName).SingleAsync();
+            return _dbContext.Dealer.Where(q => q.StoreName == storeName).SingleAsync();
         }
 
         public Task<Dealer> GetDealerByTotalBalance(decimal totalBalance)
         {
-            return _dbContext.DealerList.Where(q => q.TotalBalance == totalBalance).SingleAsync();
+            return _dbContext.Dealer.Where(q => q.TotalBalance == totalBalance).SingleAsync();
         }
 
         public Task<List<Dealer>> GetDealers()
         {
-            return _dbContext.DealerList.ToListAsync();
+            return _dbContext.Dealer.ToListAsync();
         }
 
         public async Task Insert(Dealer dealer)
         {
-            _dbContext.DealerList.Add(dealer);
+            _dbContext.Dealer.Add(dealer);
             await Save();
         }
 

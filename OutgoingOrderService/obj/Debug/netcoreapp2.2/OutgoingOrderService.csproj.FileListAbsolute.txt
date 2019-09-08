@@ -1,5 +1,6 @@
 C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\OutgoingOrderService.deps.json
 C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\OutgoingOrderService.dll
+C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\OutgoingOrderService.pdb
 C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\Database.dll
 C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\ValueTypes.dll
 C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\Database.pdb
@@ -9,6 +10,5 @@ C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderServ
 C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderService.AssemblyInfoInputs.cache
 C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderService.AssemblyInfo.cs
 C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderService.csproj.CopyComplete
-C:\GitHub\Nilufer\OutgoingOrderService\bin\Debug\netcoreapp2.2\OutgoingOrderService.pdb
 C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderService.dll
 C:\GitHub\Nilufer\OutgoingOrderService\obj\Debug\netcoreapp2.2\OutgoingOrderService.pdb

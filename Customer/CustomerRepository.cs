@@ -20,34 +20,34 @@ namespace CustomerService
 
         public async Task Delete(List<Customer> list)
         {
-            _dbContext.CustomerList.RemoveRange(list);
+            _dbContext.Customer.RemoveRange(list);
             await Save();
         }
 
         public Task<Customer> GetCustomerById(int id)
         {
             //Use linq queries to find the customer by id
-            return _dbContext.CustomerList.Where(q => q.Id == id).SingleAsync();
+            return _dbContext.Customer.Where(q => q.Id == id).SingleAsync();
         }
 
         public Task<List<Customer>> GetCustomers()
         {
-            return _dbContext.CustomerList.ToListAsync();
+            return _dbContext.Customer.ToListAsync();
         }
 
         public Task<Customer> GetCustomerByPhoneNumber(string phoneNumber)
         {
-            return _dbContext.CustomerList.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
+            return _dbContext.Customer.Where(q => q.PhoneNumber == phoneNumber).SingleAsync();
         }
 
         public Task<Customer> GetCustomerByEmail(string email)
         {
-            return _dbContext.CustomerList.Where(q => q.EmailAddress == email).SingleAsync();
+            return _dbContext.Customer.Where(q => q.EmailAddress == email).SingleAsync();
         }
 
         public async Task Insert(List<Customer> list)
         {
-            _dbContext.CustomerList.AddRange(list);
+            _dbContext.Customer.AddRange(list);
             await Save();
         }
 
