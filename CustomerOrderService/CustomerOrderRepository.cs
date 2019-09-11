@@ -60,7 +60,7 @@ namespace CustomerOrderService
             return _dbContext.CustomerOrder.Where(q => q.OrderAmount == OrderAmount).ToListAsync();
         }
 
-        public Task<List<CustomerOrder>> GetCustomerOrdersByStatus(Status status)
+        public Task<List<CustomerOrder>> GetCustomerOrdersByStatus(IncomingOrderStatus status)
         {
             return _dbContext.CustomerOrder.Where(q => q.OrderStatus == status).ToListAsync();
         }

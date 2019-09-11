@@ -13,7 +13,7 @@ namespace CustomerOrderService
         Task<CustomerOrder> GetCustomerOrderById(int id);
         Task<List<CustomerOrder>> GetCustomerOrdersByCustomerId(int CustomerId);
         Task<List<CustomerOrder>> GetCostumerOrdersByProductId(int ProductId);
-        Task<List<CustomerOrder>> GetCustomerOrdersByStatus(Status status);
+        Task<List<CustomerOrder>> GetCustomerOrdersByStatus(IncomingOrderStatus status);
         Task<List<CustomerOrder>> GetCustomerOrdersByCreatedDate(DateTime date);
         Task<List<CustomerOrder>> GetCustomerOrdersByDeliveryDate(DateTime date);
         Task<List<CustomerOrder>> GetCustomerOrdersByOrderAmount(int OrderAmount);

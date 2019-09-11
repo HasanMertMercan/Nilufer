@@ -43,7 +43,7 @@ namespace DealerOrderService
             return _dbContext.DealerOrder.Where(q => q.OrderAmount == OrderAmount).ToListAsync();
         }
 
-        public Task<List<DealerOrder>> GetDealerOrdersByStatus(Status status)
+        public Task<List<DealerOrder>> GetDealerOrdersByStatus(IncomingOrderStatus status)
         {
             return _dbContext.DealerOrder.Where(q => q.OrderStatus == status).ToListAsync();
         }

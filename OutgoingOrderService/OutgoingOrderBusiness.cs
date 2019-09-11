@@ -109,7 +109,7 @@ namespace OutgoingOrderService
             }
         }
 
-        public Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(Status status)
+        public Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(OutgoingOrderStatus status)
         {
             try
             {

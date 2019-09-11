@@ -13,7 +13,7 @@ namespace OutgoingOrderService
         Task<OutgoingOrder> GetOutgoingOrderById(int id);
         Task<List<OutgoingOrder>> GetOutgoingOrdersBySupplierId(int supplierId);
         Task<List<OutgoingOrder>> GetOutgoingOrdersByProductId(int ProductId);
-        Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(Status status);
+        Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(OutgoingOrderStatus status);
         Task<List<OutgoingOrder>> GetOutgoingOrdersByCreatedDate(DateTime date);
         Task<List<OutgoingOrder>> GetOutgoingOrdersByDeliveryDate(DateTime date);
         Task<List<OutgoingOrder>> GetOutgoingOrdersByOrderAmount(int OrderAmount);

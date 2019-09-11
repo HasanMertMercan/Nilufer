@@ -124,7 +124,7 @@ namespace CustomerOrderService
             }
         }
 
-        public Task<List<CustomerOrder>> GetCustomerOrdersByStatus(Status status)
+        public Task<List<CustomerOrder>> GetCustomerOrdersByStatus(IncomingOrderStatus status)
         {
             try
             {

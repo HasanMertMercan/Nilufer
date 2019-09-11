@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ValueTypes.Enums;
 
 namespace ValueTypes.Entity
 {
@@ -8,5 +9,6 @@ namespace ValueTypes.Entity
     {
         public int OrderId { get; set; }
         public int DealerId { get; set; }
+        public IncomingOrderStatus OrderStatus { get; set; }
     }
 }

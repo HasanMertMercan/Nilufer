@@ -16,7 +16,7 @@ namespace DealerOrderService
         Task<DealerOrder> GetDealerOrderById(int orderId);
         Task<List<DealerOrder>> GetDealerOrdersByDealerId(int dealerId);
         Task<List<DealerOrder>> GetDealerOrdersByProductId(int ProductId);
-        Task<List<DealerOrder>> GetDealerOrdersByStatus(Status status);
+        Task<List<DealerOrder>> GetDealerOrdersByStatus(IncomingOrderStatus status);
         Task<List<DealerOrder>> GetDealerOrdersByCreatedDate(DateTime date);
         Task<List<DealerOrder>> GetDealerOrdersByDeliveryDate(DateTime date);
         Task<List<DealerOrder>> GetDealerOrdersByOrderAmount(int OrderAmount);

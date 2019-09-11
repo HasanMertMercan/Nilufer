@@ -85,7 +85,7 @@ namespace DealerOrderService
             }
         }
 
-        public Task<List<DealerOrder>> GetDealerOrdersByStatus(Status status)
+        public Task<List<DealerOrder>> GetDealerOrdersByStatus(IncomingOrderStatus status)
         {
             try
             {

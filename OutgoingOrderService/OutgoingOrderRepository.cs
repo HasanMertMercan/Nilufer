@@ -53,7 +53,7 @@ namespace OutgoingOrderService
             return _dbContext.OutgoingOrder.Where(q => q.ProductId == ProductId).ToListAsync();
         }
 
-        public Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(Status status)
+        public Task<List<OutgoingOrder>> GetOutgoingOrdersByStatus(OutgoingOrderStatus status)
         {
             return _dbContext.OutgoingOrder.Where(q => q.OrderStatus == status).ToListAsync();
         }
