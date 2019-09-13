@@ -18,11 +18,11 @@ namespace CustomerService
             _repository = repository;
             _logger = logger;
         }
-        public Task Delete(List<Customer> list)
+        public Task Delete(int id)
         {
             try
             {
-                _repository.Delete(list);
+                _repository.Delete(id);
                 return Task.CompletedTask;
             }
             catch (Exception ex)
@@ -84,11 +84,11 @@ namespace CustomerService
             }
         }
 
-        public Task Insert(List<Customer> list)
+        public Task Insert(Customer customer)
         {
             try
             {
-                _repository.Insert(list);
+                _repository.Insert(customer);
                 return Task.CompletedTask;
             }
             catch (Exception ex)
@@ -98,11 +98,11 @@ namespace CustomerService
             }
         }
 
-        public Task Update(List<Customer> list)
+        public Task Update(Customer customer)
         {
             try
             {
-                _repository.Update(list);
+                _repository.Update(customer);
                 return Task.CompletedTask;
             }
             catch (Exception ex)
