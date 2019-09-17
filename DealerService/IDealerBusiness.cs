@@ -16,6 +16,6 @@ namespace DealerService
         Task<Dealer> GetDealerByTotalBalance(decimal totalBalance);
         Task Insert(Dealer dealer);
         Task Update(Dealer dealer);
-        Task Delete(Dealer dealer);
+        Task Delete(int id);
     }
 }

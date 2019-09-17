@@ -17,10 +17,18 @@ namespace DealerService
         {
             _dbContext = dbContext;
         }
-        public async Task Delete(Dealer dealer)
+        public async Task Delete(int id)
         {
-            _dbContext.Dealer.Remove(dealer);
-            await Save();
+            try
+            {
+                var dealer = await _dbContext.Dealer.SingleAsync(q => q.Id == id);
+                _dbContext.Dealer.Remove(dealer);
+                await Save();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public Task<Dealer> GetDealerByEmailAddress(string email)
