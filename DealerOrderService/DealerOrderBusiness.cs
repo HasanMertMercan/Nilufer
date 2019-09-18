@@ -19,11 +19,11 @@ namespace DealerOrderService
             _repository = repository;
             _logger = logger;
         }
-        public Task Delete(DealerOrder dealerOrder)
+        public Task Delete(int id)
         {
             try
             {
-                _repository.Delete(dealerOrder);
+                _repository.Delete(id);
                 return Task.CompletedTask;
             }
             catch(Exception ex)

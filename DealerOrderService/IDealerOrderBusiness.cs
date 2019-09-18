@@ -11,7 +11,7 @@ namespace DealerOrderService
     {
         Task Insert(DealerOrder dealerOrder);
         Task Update(DealerOrder dealerOrder);
-        Task Delete(DealerOrder dealerOrder);
+        Task Delete(int id);
         Task<List<DealerOrder>> GetDealerOrders();
         Task<DealerOrder> GetDealerOrderById(int orderId);
         Task<List<DealerOrder>> GetDealerOrdersByDealerId(int dealerId);

@@ -17,9 +17,13 @@ namespace DealerOrderService
         {
             _dbContext = dbContext;
         }
-        public async Task Delete(DealerOrder dealerOrder)
+        public async Task Delete(int id)
         {
-            _dbContext.DealerOrder.Remove(dealerOrder);
+            var dealer = await _dbContext.DealerOrder.SingleAsync(q => q.OrderId == id);
+            if(dealer != null)
+            {
+                _dbContext.DealerOrder.Remove(dealer);
+            }
             await Save();
         }
 
