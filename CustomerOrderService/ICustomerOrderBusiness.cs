@@ -19,6 +19,6 @@ namespace CustomerOrderService
         Task<List<CustomerOrder>> GetCustomerOrdersByOrderAmount(int OrderAmount);
         Task Insert(CustomerOrder customerOrder);
         Task Update(CustomerOrder customerOrder);
-        Task Delete(CustomerOrder customerOrder);
+        Task Delete(int id);
     }
 }

@@ -18,9 +18,13 @@ namespace CustomerOrderService
             //Inject StoreDbContext
             _dbContext = dbContext;
         }
-        public async Task Delete(CustomerOrder customerOrder)
+        public async Task Delete(int id)
         {
-            _dbContext.CustomerOrder.Remove(customerOrder);
+            var customerOrder = await _dbContext.CustomerOrder.SingleAsync(q => q.OrderId == id);
+            if(customerOrder != null)
+            {
+                _dbContext.CustomerOrder.Remove(customerOrder);
+            }
             await Save();
         }
 

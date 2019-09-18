@@ -19,11 +19,11 @@ namespace CustomerOrderService
             _repository = repository;
             _logger = logger;
         }
-        public Task Delete(CustomerOrder customerOrder)
+        public Task Delete(int id)
         {
             try
             {
-                _repository.Delete(customerOrder);
+                _repository.Delete(id);
                 return Task.CompletedTask;
             }
             catch (Exception ex)
