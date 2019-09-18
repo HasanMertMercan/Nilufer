@@ -31,7 +31,7 @@ namespace Web.Controllers
 
         // GET: api/Supplier/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Supplier>> GetSupplier(int id)
+        public async Task<ActionResult<Supplier>> GetSupplierById(int id)
         {
             var supplier = await _business.GetSupplierById(id);
 

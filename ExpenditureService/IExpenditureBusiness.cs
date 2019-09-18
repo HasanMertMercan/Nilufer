@@ -15,6 +15,6 @@ namespace ExpenditureService
         Task<List<Expenditure>> GetExpendituresByTotalAmount(decimal totalAmount);
         Task Insert(Expenditure expenditure);
         Task Update(Expenditure expenditure);
-        Task Delete(Expenditure expenditure);
+        Task Delete(int id);
     }
 }

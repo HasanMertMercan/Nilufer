@@ -31,7 +31,7 @@ namespace Web.Controllers
 
         // GET: api/Product/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<Product>> GetProductById(int id)
         {
             var products = await _business.GetProductById(id);
 

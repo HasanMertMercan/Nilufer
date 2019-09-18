@@ -16,9 +16,13 @@ namespace ExpenditureService
         {
             _dbContext = dbContext;
         }
-        public async Task Delete(Expenditure expenditure)
+        public async Task Delete(int id)
         {
-            _dbContext.Expenditure.Remove(expenditure);
+            var expenditure = await _dbContext.Expenditure.SingleAsync(q => q.Id == id);
+            if(expenditure != null)
+            {
+                _dbContext.Expenditure.Remove(expenditure);
+            }
             await Save();
         }
 
