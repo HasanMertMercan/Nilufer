@@ -17,11 +17,11 @@ namespace OutgoingOrderService
             _repository = repository;
             _logger = logger;
         }
-        public Task Delete(OutgoingOrder outgoingOrder)
+        public Task Delete(int id)
         {
             try
             {
-                _repository.Delete(outgoingOrder);
+                _repository.Delete(id);
                 return Task.CompletedTask;
             }
             catch(Exception ex)

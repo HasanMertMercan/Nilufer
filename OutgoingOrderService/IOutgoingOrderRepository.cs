@@ -19,6 +19,6 @@ namespace OutgoingOrderService
         Task<List<OutgoingOrder>> GetOutgoingOrdersByOrderAmount(int OrderAmount);
         Task Insert(OutgoingOrder outgoingOrder);
         Task Update(OutgoingOrder outgoingOrder);
-        Task Delete(OutgoingOrder outgoingOrder);
+        Task Delete(int id);
     }
 }

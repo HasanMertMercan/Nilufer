@@ -17,9 +17,13 @@ namespace OutgoingOrderService
         {
             _dbContext = dbContext;
         }
-        public async Task Delete(OutgoingOrder outgoingOrder)
+        public async Task Delete(int id)
         {
-            _dbContext.OutgoingOrder.Remove(outgoingOrder);
+            var outgoingOrder = await _dbContext.OutgoingOrder.SingleAsync(q => q.OrderId == id);
+            if(outgoingOrder != null)
+            {
+                _dbContext.OutgoingOrder.Remove(outgoingOrder);
+            }
             await Save();
         }
 
