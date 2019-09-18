@@ -16,9 +16,13 @@ namespace SupplierService
         {
             _dbContext = dbContext;
         }
-        public async Task Delete(Supplier supplier)
+        public async Task Delete(int id)
         {
-            _dbContext.Supplier.Remove(supplier);
+            var supplier = await _dbContext.Supplier.SingleAsync(q => q.Id == id);
+            if(supplier != null)
+            {
+                _dbContext.Supplier.Remove(supplier);
+            }
             await Save();
         }
 

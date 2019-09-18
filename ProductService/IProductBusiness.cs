@@ -12,8 +12,8 @@ namespace ProductService
         Task<Product> GetProductById(int id);
         Task<Product> GetProductByProductName(string name);
         Task<Product> GetProductByProductCode(string code);
-        Task Insert(List<Product> list);
-        Task Update(List<Product> list);
-        Task Delete(List<Product> list);
+        Task Insert(Product product);
+        Task Update(Product product);
+        Task Delete(int id);
     }
 }

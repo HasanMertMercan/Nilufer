@@ -18,11 +18,11 @@ namespace ProductService
             _logger = logger;
         }
 
-        public Task Delete(List<Product> list)
+        public Task Delete(int id)
         {
             try
             {
-                _repository.Delete(list);
+                _repository.Delete(id);
                 return Task.CompletedTask;
             }
             catch(Exception ex)
@@ -84,11 +84,11 @@ namespace ProductService
             }
         }
 
-        public Task Insert(List<Product> list)
+        public Task Insert(Product product)
         {
             try
             {
-                _repository.Insert(list);
+                _repository.Insert(product);
                 return Task.CompletedTask;
             }
             catch (Exception ex)
@@ -98,11 +98,11 @@ namespace ProductService
             }
         }
 
-        public Task Update(List<Product> list)
+        public Task Update(Product product)
         {
             try
             {
-                _repository.Update(list);
+                _repository.Update(product);
                 return Task.CompletedTask;
             }
             catch (Exception ex)

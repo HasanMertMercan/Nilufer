@@ -15,7 +15,7 @@ namespace SupplierService
         Task<Supplier> GetSupplierByEmail(string email);
         Task<List<Supplier>> GetSuppliersByTotalBalance(decimal totalBalance);
         Task Insert(Supplier supplier);
-        Task Delete(Supplier supplier);
+        Task Delete(int id);
         Task Update(Supplier supplier);
     }
 }
