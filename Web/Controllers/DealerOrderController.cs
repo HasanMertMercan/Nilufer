@@ -43,6 +43,15 @@ namespace Web.Controllers
             return dealerOrder;
         }
 
+        //GET: api/DealerOrder/OrderNumber/{ordernumber}
+        [HttpGet("OrderNumber/{ordernumber}")]
+        public async Task<ActionResult<DealerOrder>> GetDealerOrderByOrderNumber(int OrderNumber)
+        {
+            var dealerOrder = await _business.GetDealerOrderByOrderNumber(OrderNumber);
+
+            return dealerOrder;
+        }
+
         // PUT: api/DealerOrder/edit/5
         [HttpPut("edit/{id}")]
         public ActionResult<IEnumerable<string>> EditDealerOrder(int id, DealerOrder dealerOrder)

@@ -14,6 +14,7 @@ namespace DealerOrderService
         Task Delete(int id);
         Task<List<DealerOrder>> GetDealerOrders();
         Task<DealerOrder> GetDealerOrderById(int orderId);
+        Task<DealerOrder> GetDealerOrderByOrderNumber(int OrderNumber);
         Task<List<DealerOrder>> GetDealerOrdersByDealerId(int dealerId);
         Task<List<DealerOrder>> GetDealerOrdersByProductId(int ProductId);
         Task<List<DealerOrder>> GetDealerOrdersByStatus(IncomingOrderStatus status);

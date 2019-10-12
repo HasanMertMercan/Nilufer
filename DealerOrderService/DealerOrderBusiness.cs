@@ -45,6 +45,18 @@ namespace DealerOrderService
                 throw ex;
             }
         }
+        public Task<DealerOrder> GetDealerOrderByOrderNumber(int OrderNumber)
+        {
+            try
+            {
+                return _repository.GetDealerOrderByOrderNumber(OrderNumber);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                throw ex;
+            }
+        }
 
         public Task<List<DealerOrder>> GetDealerOrdersByCreatedDate(DateTime date)
         {

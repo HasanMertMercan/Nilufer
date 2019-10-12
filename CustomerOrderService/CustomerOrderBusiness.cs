@@ -46,6 +46,19 @@ namespace CustomerOrderService
             }
         }
 
+        public Task<CustomerOrder> GetCustomerOrderByOrderNumber(int OrderNumber)
+        {
+            try
+            {
+                return _repository.GetCustomerOrderByOrderNumber(OrderNumber);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                throw ex;
+            }
+        }
+
         public Task<CustomerOrder> GetCustomerOrderById(int id)
         {
             try

@@ -11,6 +11,7 @@ namespace CustomerOrderService
     {
         Task<List<CustomerOrder>> GetCustomerOrders();
         Task<CustomerOrder> GetCustomerOrderById(int id);
+        Task<CustomerOrder> GetCustomerOrderByOrderNumber(int OrderNumber);
         Task<List<CustomerOrder>> GetCustomerOrdersByCustomerId(int CustomerId);
         Task<List<CustomerOrder>> GetCostumerOrdersByProductId(int ProductId);
         Task<List<CustomerOrder>> GetCustomerOrdersByStatus(IncomingOrderStatus status);
