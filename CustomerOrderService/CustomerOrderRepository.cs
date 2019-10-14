@@ -95,20 +95,13 @@ namespace CustomerOrderService
         private int OrderNumberGenerator()
         {
             int OrderNumber = RandomNumberGenerator();
-            bool ValidationResult = ValidateGeneratedOrderNumber(OrderNumber);
-            if(ValidationResult == true)
+            bool ValidationResult = false;
+            while(ValidationResult == false)
             {
-                return OrderNumber;
+                OrderNumber = RandomNumberGenerator();
+                ValidationResult = ValidateGeneratedOrderNumber(OrderNumber);
             }
-            else
-            {
-                while(ValidationResult == false)
-                {
-                    OrderNumber = RandomNumberGenerator();
-                    ValidationResult = ValidateGeneratedOrderNumber(OrderNumber);
-                }
-                return OrderNumber;
-            }
+            return OrderNumber;
         }
 
         private int RandomNumberGenerator()
